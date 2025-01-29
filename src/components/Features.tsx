@@ -26,6 +26,7 @@ const Features = ({ featureSection }: FeaturesProps) => {
               {feature.icon?.fields.file?.url && (
                 <div className="relative w-30 h-30 mb-4">
                   <Image
+                    quality={75}
                     src={`https:${feature.icon.fields.file.url}`}
                     alt={feature.title}
                     width={200}
