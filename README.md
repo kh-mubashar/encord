@@ -60,12 +60,7 @@ CONTENTFUL_SPACE_ID=<your-space-id>
 CONTENTFUL_ACCESS_TOKEN=<your-access-token>
 ```
 
-the credentials used
-
-```
-CONTENTFUL_SPACE_ID="v21c7sq54bq9"
-CONTENTFUL_ACCESS_TOKEN="0XdyChpf8nYYrEwdEyfhuuvaQJ2qYvDBgGxpaJRjj9c"
-```
+### Structure
 
 ```
 /pages
