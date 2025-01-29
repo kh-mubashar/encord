@@ -46,7 +46,6 @@ export const getServerSideProps: GetServerSideProps = async () => {
   const landingPage = await fetchLandingPage();
   return {
     props: { landingPage },
-    revalidate: 60,
   };
 };
 
